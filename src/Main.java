@@ -107,8 +107,10 @@ public class Main {
         System.out.println("Inbox:");
         for (Mail mail : inbox) {
             System.out.println(mail.getSender());
+            System.out.println(mail.getTimestamp());
             System.out.println(mail.getSubject());
             System.out.println(mail.getBody());
+            System.out.println("_____________________________");
 
         }
     }
@@ -129,7 +131,12 @@ public class Main {
         List<Mail> unreadMails = mailService.getUnreadMails(email);
         System.out.println("Unread Mails:");
         for (Mail mail : unreadMails) {
-            System.out.println(mail);
+            System.out.println(mail.getSender());
+            System.out.println(mail.getTimestamp());
+            System.out.println(mail.getSubject());
+            System.out.println(mail.getBody());
+            System.out.println("_____________________________");
+
         }
     }
 
@@ -137,7 +144,11 @@ public class Main {
         List<Mail> outbox = mailService.getOutbox(email);
         System.out.println("Outbox:");
         for (Mail mail : outbox) {
-            System.out.println(mail);
+            System.out.println("To :"+mail.getRecipient());
+            System.out.println("Time :"+mail.getTimestamp());
+            System.out.println("Subject :"+mail.getSubject());
+            System.out.println("Body :"+mail.getBody());
+            System.out.println("_____________________________");
         }
     }
 }
