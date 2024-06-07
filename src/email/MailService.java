@@ -27,6 +27,7 @@ public class MailService {
     public List<Mail> getInbox(String recipient) {
         List<Mail> inbox = new ArrayList<>();
         for (Mail mail : mails) {
+            mail.setRead(true);
             if (mail.getRecipient().equals(recipient)) {
                 inbox.add(mail);
             }
@@ -43,4 +44,5 @@ public class MailService {
         }
         return outbox;
     }
+
 }
