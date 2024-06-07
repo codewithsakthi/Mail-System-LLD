@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c22f8f1b-a9ee-4c59-9bd0-c6e5510722cc" name="Changes" comment="Gmail LLD">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/email/MailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/email/MailService.java" afterDir="false" />
-    </list>
+    <list default="true" id="c22f8f1b-a9ee-4c59-9bd0-c6e5510722cc" name="Changes" comment="read receipt modification" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717746757181</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="read receipt modification">
+      <option name="closed" value="true" />
+      <created>1717747532229</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717747532229</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +122,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Gmail LLD" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gmail LLD" />
+    <MESSAGE value="read receipt modification" />
+    <option name="LAST_COMMIT_MESSAGE" value="read receipt modification" />
   </component>
 </project>
